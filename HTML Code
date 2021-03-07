@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  
+<header>
+<h1 id="title">Travel Consultation Survey Form</h1>
+</header>
+
+<body>
+<p id="description">Please answer all the questions below</p>
+
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label id="name-label" for="name">Name</label>
+  <input id="name" type="text" name="name" placeholder="Mary Smith" class="form-inputs" required/>
+  </br>
+  
+  <label id="email-label" for="email">Email</label>
+  <input  id="email" type="email" name="email" placeholder="marysmith@travel.com" class="form-inputs" required/>
+  </br>
+
+  <label id="number-label" for="number">Age</label>
+  <input id="number" type="number" name="number" placeholder="29" min="16" max="100" class="form-inputs" required/>
+  </br>
+
+<label id="destination" for="dropdown">Choose your destination<label>
+<select id="dropdown" class="form-inputs">
+  <option value="London_UK"> London, UK </option>
+  <option value="Paris_FR"> Paris, FR </option>
+  <option value="Athens_GR"> Athens, GR </option>
+  <option value="Antwerp_BE"> Antwerp, BE </option>
+  <option value="Rome_IT"> Rome, IT </option>
+  <option value="Amsterdam_NL"> Amsterdam, NL </option>
+</select>
+  </br>
+  </br>
+
+<label id="radio-label" for="radio-option"> <b> Would you use our service again? </b> </label>
+    </br>
+        <input type="radio" value="absolutely" name="radio-option"> Absolutely</input>
+    </br>
+        <input type="radio" value="maybe" name="radio-option">Maybe</input>
+    </br>
+        <input type="radio" value="undecided" name="radio-option">Undecided</label>
+    </br>
+</br>
+</br>
+
+<label id="checkbox-label" for="checkbox"> <b> Would you recommend us to your friends? </b> </label>
+</br>
+<input id="checkbox" type="checkbox" value="yes" name="checkbox-option">Yes</input>
+</br>
+<input id="checkbox" type="checkbox" value ="no" name="checkbox-option">No</input>
+</br>
+<input id="checkbox" type="checkbox" value ="maybe" name="checkbox-option">Maybe</input>
+</br>
+</br>
+
+<label id="textarea-label" for="textarea"> <b> Additional comments <b> </label>
+</br>
+<textarea id="textarea" name="comments" rows="5" cols="40">
+ Enter any additional comments here...  
+</textarea>
+</br>
+</br>
+</br>
+<button id="submit" class="submit-button">Submit</button>
+
+</div>
+</form>
+
+</body>
+</html>
